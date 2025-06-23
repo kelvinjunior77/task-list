@@ -370,26 +370,14 @@
             </div>
             <!----->
         </div>
-
-
-        <PWAInstallPrompt />
-
-
     </div>
-
-
 
 </template>
 
 <script setup>
-import PWAInstallPrompt from '/src/components/PWAInstallPrompt.vue';
-
 import { ref, computed, onMounted } from 'vue';
 import { useTaskStore } from '/src/stores/taskStore';
 
-const menus = [
-    { id: 1, nome: "Português", path: '/português' }
-]
 
 
 // Configuração do Pinia

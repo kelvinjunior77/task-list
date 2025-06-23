@@ -9,7 +9,7 @@
         </div>
         <div class="ml-3">
           <h3 class="text-sm font-medium text-gray-900">Instalar aplicativo</h3>
-          <p class="mt-1 text-sm text-gray-500">Adicione "Minhas Tarefas" à sua tela inicial para uma melhor experiência.</p>
+          <p class="mt-1 text-sm text-gray-500">Adicione "Task List" à sua tela inicial para uma melhor experiência.</p>
           <div class="mt-4 flex gap-2">
             <button @click="dismissPrompt" type="button" class="text-sm text-gray-500 hover:text-gray-700">
               Mais tarde

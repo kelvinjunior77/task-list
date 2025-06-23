@@ -23,6 +23,7 @@
 
     <div v-show="!isLoading"
         class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12 px-4 sm:px-6 lg:px-8">
+        <PWAInstallPrompt />
 
 
         <div class="max-w-3xl mx-auto">
@@ -376,7 +377,7 @@
         </div>
 
 
-        <PWAInstallPrompt />
+        
 
 
     </div>
@@ -386,10 +387,9 @@
 </template>
 
 <script setup>
-import PWAInstallPrompt from '/src/components/PWAInstallPrompt.vue';
-
 import { ref, computed, onMounted } from 'vue';
 import { useTaskStore } from '/src/stores/taskStore';
+import PWAInstallPrompt from '/src/components/PWAInstallPrompt.vue';
 
 const menus = [
     { id: 1, nome: "Frances", path: '/lang/frances' }
