@@ -334,7 +334,7 @@
                         <div class="flex gap-4 pt-4 border-t border-gray-200">
 
                             <!-- Ícone do Facebook -->
-                            <a href="#" class="text-indigo-600 hover:text-indigo-800" title="Facebook">
+                            <a href="https://www.facebook.com/joaok.junioriii" class="text-indigo-600 hover:text-indigo-800" title="Facebook">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor"
                                     viewBox="0 0 24 24">
                                     <path
