@@ -392,7 +392,7 @@ import { useTaskStore } from '/src/stores/taskStore';
 import PWAInstallPrompt from '/src/components/PWAInstallPrompt.vue';
 
 const menus = [
-    { id: 1, nome: "Frances", path: '/lang/frances' }
+    { id: 1, nome: "Frances", path: '/frances' }
 ]
 
 

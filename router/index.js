@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, createWebHashHistory} from "vue-router";
 import Home from "../pages/Home.vue";
-const lazyLoad = (view) => import(`../pages/${view}.vue`);
+//const lazyLoad = (view) => import(`../pages/${view}.vue`);
+import Frances from "../pages/Frances.vue";
 
 const routes = [
     {
@@ -10,9 +11,10 @@ const routes = [
     },
 
      {
-        path: "/lang/frances",
+        path: "/frances",
         name: "Frances",
-        component: lazyLoad("Frances"),
+        //component: lazyLoad("Frances"),
+        component: Frances
      },
 ];
 
