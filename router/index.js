@@ -11,7 +11,7 @@ const routes = [
     },
 
      {
-        path: "/frances",
+        path: "/lang/frances",
         name: "Frances",
         //component: lazyLoad("Frances"),
         component: Frances
