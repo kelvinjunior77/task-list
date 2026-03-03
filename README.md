@@ -1,28 +1,28 @@
-# 📱 Task List PWA - Gerenciador de Tarefas Moderno
+# Task List PWA - Gerenciador de Tarefas Moderno
 
 
 Um aplicativo de gerenciamento de tarefas PWA desenvolvido com Vue 3, Pinia e Tailwind CSS.
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
-### 📝 Gerenciamento de Tarefas
+### Gerenciamento de Tarefas
 - **CRUD completo** (Criar, Ler, Atualizar, Excluir)
 - **Prioridades** (Baixa, Média, Alta) com cores visuais
 - **Filtros inteligentes** (Todas/Pendentes/Concluídas)
 - **Marcar como concluído** com um clique
 
 
-### 📱 PWA (Progressive Web App)
+### PWA (Progressive Web App)
 - **Instalável** na tela inicial do celular/desktop
 - **Funciona offline**
 - **Carregamento ultrarrápido**
 
-### 🎨 Interface Moderna
+### Interface Moderna
 - **Design responsivo** para todos os dispositivos
 - **Modo claro/escuro** automático
 - **Animações suaves** e interações intuitivas
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia       | Descrição                          |
 |------------------|------------------------------------|
@@ -34,7 +34,7 @@ Um aplicativo de gerenciamento de tarefas PWA desenvolvido com Vue 3, Pinia e Ta
 | GitHub Actions   | CI/CD (opcional)                   |
 
 
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
 ### Pré-requisitos
 - Node.js 16+
